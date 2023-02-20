@@ -1,0 +1,137 @@
+.slide{
+    width: 650px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    overflow: hidden;
+    border: 2px solid rgb(128, 75, 5);
+    border-radius: 10px ;
+}
+.slide figure img{
+    width: 20%;
+    height: 350px;
+    float: left;
+}
+.slide figure{
+    position: relative;
+    width: 500%;
+    margin: 0px;
+    left: 0px;
+    animation: krutom 20s infinite linear;
+}
+@keyframes krutom{
+    0%{left: 0%;}
+    15%{left:0%;}
+    20%{left:-100%;}
+    35%{left:-100%;}
+    40%{left:-200%;}
+    60%{left:-200%;}
+    65%{left:-300%;}
+    80%{left:-300%;}
+    85%{left:-400%;}
+    100%{left:-400%;}
+}
+.ccv{
+    max-width: 350px;
+    margin: 200 auto;
+    border: 5px solid rgb(204, 167, 1);
+    background-color: rgb(219, 151, 24);
+    color: rgb(0, 0, 0);
+    padding: 0.5rem;
+}
+.CON{
+    text-align: center;
+}
+ul {
+    list-style-type: disc;
+  }
+  .ooo{
+    width: 150px;
+  height: 150px;
+  border: 2.5px solid rgb(223, 174, 14);
+}
+.box{
+    color: rgb(211, 144, 20);
+}
+.eee{
+    max-width: 960px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5rem;
+    background-color: rgb(124, 66, 0);
+
+
+    
+}
+.rems{
+    max-width: 960px;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.767);
+    text-align: center;
+}
+.ccw{
+    float: rgb(0, 0, 0);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f1f1f1;
+
+}
+nav {
+    background: #222;
+    padding: 5px 20px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.logo a:hover{
+    text-decoration: none;
+}
+.menu li{
+    font-size: 16px;
+    padding: 15px 5px ;
+    white-space: nowrap;
+}
+
+.toggle a{
+    font-size: 20px;
+}
+.button.secondary{
+    border-bottom: 1px solid #444;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.button a {
+    padding: 7px 15px;
+    background: teal;
+    border: 1px solid #006d6d;
+}
+.button.button.secondary a{
+    background: transparent;
+}
+.logo{
+    order: 0;
+    
+}
+.toggle{
+    display: block;
+}
+
